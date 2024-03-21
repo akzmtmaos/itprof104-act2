@@ -1,6 +1,9 @@
 import pyttsx3
 import speech_recognition as sr
 
+# Mark Anthony D. Ramos
+# BSIT-2
+
 def talk(text):
     engine = pyttsx3.init()
     engine.setProperty('rate', 150)
